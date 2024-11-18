@@ -1,0 +1,154 @@
+/*estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFAFA ;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/*texto alinhado*/
+.flex{
+    display:flex;
+
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(196, 134, 187);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+h2.título{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    
+}
+h2.título span{
+    color:#ca82c4
+}
+
+/*estilo cabeçalho*/
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ header a{
+    color:rgb(184, 89, 152);
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+header a:hover{
+color: #d4a1e0;
+transform: scale(1.04);
+}
+
+
+
+header nav ul{
+    list-style-type: none;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+ .btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(209, 144, 218);
+    
+}
+
+/*Estilo do topo do site*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+/*centralizar o texto*/
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+/*gap é pra dar espaçamento entre os elementos*/
+.topo-do-site h1{
+    color: #ca82c4;
+    font-size: 39px;
+    line-height: 40px;
+}
+
+.topo-do-site h1 span{
+    color: #a568a0;
+    font-size: 40px;
+    
+}
+
+.topo-do-site .txt-topo-site p{
+   font-size: 38px;
+    margin: 40px 0;
+}
+
+.btn-contato{
+    color: #a568a0;
+    transform: scale(1.05);
+}
+
+/* estilo da especialidade */
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{  
+    color:black;
+    padding:  40px; 
+    border-radius: 20px; 
+    border: 2px solid #ca82c4;
+    margin-top: 45px;
+}
+   
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ca82c4;
+}
+   
+.especialidades .especialidades-box i{ 
+font-size: 60px;
+color: #ca82c4;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 26;
+    margin: 15px 0;
+}
+
+
+    
